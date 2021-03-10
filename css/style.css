@@ -19,7 +19,7 @@ table, tr, td {
   border-collapse: collapse; }
 
 .table-price {
-  width: 70%;
+  width: 80%;
   height: 40%;
   margin: 0 auto; }
 
@@ -51,14 +51,17 @@ input[type=number] {
   /* Firefox */ }
 
 button {
-  height: 5vh;
-  width: 5vw;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1rem;
   background-color: transparent; }
 
+.start {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 2rem; }
+
 .FS {
-  background-color: rgba(12, 166, 204, 0.712); }
+  background-color: rgba(91, 192, 218, 0.712); }
 
 .TF {
   background-color: rgba(128, 0, 128, 0.719); }
@@ -70,7 +73,10 @@ button {
   background-color: #e69b11; }
 
 .MT {
-  background-color: #00ff95; }
+  background-color: #0084ff; }
+
+.CR {
+  background-color: #c70f0f; }
 
 ul {
   width: 70%;
@@ -95,6 +101,7 @@ li {
 
 .potions_market {
   margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 50px;
   width: 80%; }
 
@@ -103,5 +110,25 @@ p {
   height: 100%;
   text-align: center;
   line-height: 3vw; }
+
+.test {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5vw;
+  height: 5vh;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.data {
+  position: absolute;
+  left: 0;
+  top: 6vh;
+  width: 8vw;
+  height: 5vh;
+  font-weight: bold;
+  font-size: 1rem; }
+  .data:hover {
+    background-color: rgba(87, 68, 68, 0.486); }
 
 /*# sourceMappingURL=style.css.map */
